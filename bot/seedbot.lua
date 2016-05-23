@@ -238,17 +238,8 @@ function create_config( )
     sudo_users = {175636120,198794027,219339258},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[This Is Grandex Bot
-An advanced administration bot based on TG-CLI written in Lua
-
-@ThisIsPouria [Founder]
-
-@It_Is_Crazy [Developer]
-
-@SHO_OKER_ADMIN [Sudo]
-
-Our Cannel:
-@Grandex_CH
+    about_text = [[
+Black Life
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -365,10 +356,10 @@ Show list of badwords
 !clearbadwords
 Clean badwords list
 〰〰〰〰〰〰〰〰
-!bot off
+bot off
 Bot off on chat
 〰〰〰〰〰〰〰〰
-!bot on
+bot on
 Bot on in chat
 〰〰〰〰〰〰〰〰
 !calc [Your Formulas]
@@ -416,7 +407,7 @@ Take sticker from photo by reaply
 !tex [text]
 Take text to photo
 〰〰〰〰〰〰〰〰
-!sticker [size] [text]
+!sticker [text] [color] [font]
 Take text to sticker
 〰〰〰〰〰〰〰〰
 !voice [text]
